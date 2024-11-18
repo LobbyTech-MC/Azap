@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.terslenk.azap</groupId>
     <artifactId>Azap</artifactId>
-    <version>zh_CN(LobbyTech 1.20)</version>
+    <version>zh_CN</version>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -50,14 +50,14 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.20.1-R0.1-SNAPSHOT</version>
+            <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>com.github.Slimefun</groupId>
+            <groupId>com.github.SlimefunGuguProject</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>RC-35</version>
+            <version>2024.3.1</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
@@ -70,7 +70,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>1.18.36</version>
         </dependency>
 
         <dependency>
